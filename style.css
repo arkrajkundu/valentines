@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", "Arial";
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* background-color: rgb(196,233,230); */
+}
+
+.text p {
+  color: rgb(251, 156, 165);
+  font-size: 30px;
+}
+
+img {
+  width: 300px;
+  margin: 50px;
+}
+
+.buttons button {
+  border: none;
+  background-color: rgba(251, 156, 165);
+  padding: 10px 30px;
+  font-size: 25px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+  /* color: white; */
+}
+
+.buttons .no-btn {
+  background-color: rgb(196, 233, 230);
+}
+
+.buttons .yes-btn:hover {
+  background-color: rgba(251, 156, 165, 0.75);
+}
+
+.buttons .yes-btn:active {
+  background-color: rgba(251, 156, 165);
+}
+
+.buttons .no-btn:hover {
+  background-color: rgba(196, 233, 230, 0.75);
+}
+
+.buttons .no-btn:active {
+  background-color: rgb(196, 233, 230);
+}
+
+@media screen and (max-width: 400px) {
+  * {
+    cursor: default;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  button{
+    transform: scale(75%);
+  }
+}
