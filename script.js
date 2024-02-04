@@ -4,7 +4,7 @@ const text = document.querySelector('.head-text');
 const imageElement = document.querySelector('img');
 
 const contemplation = [];
-contemplation.push("Are you sure?", "Think twice", "Really?", "Are you in the right mind?", "Huhhh??", "Think again!", "You won't get this chance twice", "Are you okay?");
+contemplation.push("You sure?", "Think twice", "Really?", "Seriously?", "Huhhh??", "Think again!", "Think about it", "You okay?");
 console.log(contemplation[Math.random]);
 
 let diminish = 0.9;
